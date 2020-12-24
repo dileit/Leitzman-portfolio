@@ -1,0 +1,65 @@
+.btn:link,
+.btn:visited,
+input[type="submit"] {
+	display: inline-block;
+	padding: 1rem 3rem;
+	font-size: 1.7rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 1rem;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+	@include respond(tab-land) {
+		font-size: 1.5rem;
+	}
+
+	@include respond(tab-port) {
+		font-size: 1.4rem;
+	}
+
+	@include respond(phone-sm) {
+		font-size: 1.1rem;
+		padding: 0.7rem 2.2rem;
+	}
+}
+
+.btn-full:link,
+.btn-full:visited {
+	background-color: $color-primary;
+	border: 2px solid $color-focus-1;
+	color: $color-white;
+	margin-right: 1.5rem;
+}
+
+.btn-full:hover {
+	box-shadow: 0 1rem 2rem $color-box-shadow;
+	transform: translateY(-2px);
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+	background-color: $color-white;
+	border: 2px solid $color-primary;
+	color: $color-primary;
+}
+
+.btn-ghost:hover {
+	box-shadow: 0 1rem 2rem $color-box-shadow;
+	transform: translateY(-2px);
+}
+
+.intro__btn {
+	margin-right: 1.92rem;
+
+	@include respond(tab-land) {
+		margin-right: 1.5rem;
+	}
+
+	@include respond(phone-sm) {
+		margin-right: 1;
+		margin-bottom: 2rem;
+	}
+}

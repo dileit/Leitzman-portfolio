@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	min-height: 100%;
+	position: relative;
+	background-color: white;
+	color: $color-default-font;
+	font-family: "Roboto", "Arial", sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	box-sizing: border-box;
+}
