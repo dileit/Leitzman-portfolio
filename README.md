@@ -1,4 +1,4 @@
-# Personal Portfolio v.1
+# Personal Portfolio v.1.1
 
 Diana Leitzman's personal project portfolio. All projects added are also on my github profile. I have some custom CSS projects as well as projects adjusted from coursework, and straight coursework items as well.
 

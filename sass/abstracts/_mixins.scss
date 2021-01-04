@@ -6,25 +6,6 @@
 	}
 }
 
-// MEDIA QUERY MANAGER
-/*
-0 - 600:			Phone
-600 - 900:		Tablet portrait
-900 - 1200:		Tablet landscape
-[1200 - 1800] is where our normal styles apply
-1800px +		Big desktop
-
-$breakpoint argument choices:
-- phone
-- tab-port
-- tab-land
-- big-desktop
-
-1em = 16px
-
-ORDER: Base + typography > general layout + grid > page layout > components
-*/
-
 @mixin respond($breakpoint) {
 	@if $breakpoint == phone-sm {
 		@media (max-width: 28.12em) {
@@ -68,3 +49,22 @@ ORDER: Base + typography > general layout + grid > page layout > components
 		}
 	}
 }
+
+// MEDIA QUERY MANAGER
+/*
+0 - 600:			Phone
+600 - 900:		Tablet portrait
+900 - 1200:		Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px +		Big desktop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+1em = 16px
+
+ORDER: Base + typography > general layout + grid > page layout > components
+*/
